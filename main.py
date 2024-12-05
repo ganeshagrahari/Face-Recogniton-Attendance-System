@@ -82,7 +82,7 @@ class Face_Recognition_System:
         b2=Button(bg_img,image=self.photoimg6,cursor="hand2",command=self.Attendance_data)
         b2.place(x=800,y=100,width=220,height=220)
 
-        b_2=Button(bg_img,text="Attendence",cursor="hand2",command=self.Attendance_data,font=("Century",15,"bold"),bg="black",fg="white")
+        b_2=Button(bg_img,text="Attendance",cursor="hand2",command=self.Attendance_data,font=("Century",15,"bold"),bg="black",fg="white")
         b_2.place(x=800,y=300,width=220,height=40)
         #4->help desk button- #there is 300px distence beteen 2 buttons in x-axis
         img7 =Image.open(r"images\H.png")
@@ -170,7 +170,7 @@ class Face_Recognition_System:
         webbrowser.open(url)
     def open_html2(self):
         # Path to the HTML file you want to open
-        url='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMvXqtzvsnCXTxMHDxxzgtXBtvBPDstbXwcLrnrkwrjkvvNSJxGVVmfTjtnVVlXNwgScJJ'
+        url='mailto:ganeshagrahari108@gmail.com'
         # Open the file in the default web browser
         webbrowser.open(url)
 

@@ -104,8 +104,8 @@ class face_recognition:
 
 
 
-                if confidence>77:
-                    cv2.putText(img,f"Student_ID:{i}",(x,y-80),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
+                if confidence>75:
+                    cv2.putText(img,f"StudentID:{i}",(x,y-80),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
                     cv2.putText(img,f"Roll:{r}",(x,y-58),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
                     cv2.putText(img,f"Name:{n}",(x,y-35),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
                     cv2.putText(img,f"Department:{d}",(x,y-11),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
